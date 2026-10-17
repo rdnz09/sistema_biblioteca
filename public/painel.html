@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#334155">
+  <title>Painel | Acervo Biblioteca</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="logo">📚 Acervo Biblioteca</div>
+    <nav class="menu" aria-label="Menu principal">
+      <a class="ativo" href="painel.html" aria-current="page">Painel</a>
+      <a href="livros.html">Livros</a>
+      <a href="movimentacoes.html">Movimentações</a>
+      <a href="index.html" id="link-sair">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Bem-vindo ao Acervo</h1>
+    <p class="saudacao">Acesse uma área para gerenciar os livros e acompanhar o estoque da biblioteca.</p>
+
+    <section class="grade" aria-label="Atalhos do sistema">
+      <a href="livros.html" class="cartao card-atalho">
+        <div class="icone" aria-hidden="true">📖</div>
+        <h2>Livros</h2>
+        <p>Consulte o acervo e prepare os cadastros de livros.</p>
+      </a>
+      <a href="movimentacoes.html" class="cartao card-atalho">
+        <div class="icone" aria-hidden="true">↔</div>
+        <h2>Movimentações</h2>
+        <p>Visualize a estrutura de entradas e saídas do estoque.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="rodape">Acervo Biblioteca © 2026 | Desenvolvido por Guilherme Gama Marques</footer>
+</body>
+</html>

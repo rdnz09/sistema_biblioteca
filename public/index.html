@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#334155">
+  <title>Entrar | Acervo Biblioteca</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="pagina-login">
+  <main class="cartao caixa-login">
+    <div class="icone" aria-hidden="true">📚</div>
+    <h1>Acervo Biblioteca</h1>
+    <p class="subtitulo">Entre com suas credenciais para acessar o sistema.</p>
+
+    <form id="form-login">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="username" required>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="current-password" required>
+
+      <button type="submit" class="botao">Entrar</button>
+    </form>
+    <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
